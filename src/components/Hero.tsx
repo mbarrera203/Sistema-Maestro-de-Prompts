@@ -9,6 +9,23 @@ export function Hero() {
       <div className="absolute top-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-slate-700 to-transparent" />
 
       <div className="container mx-auto px-6 relative z-10 max-w-5xl text-center">
+        <motion.img
+          initial={{
+            opacity: 0,
+            y: 12
+          }}
+          animate={{
+            opacity: 1,
+            y: 0
+          }}
+          transition={{
+            duration: 0.6
+          }}
+          src="/Logo.png"
+          alt="Sistema Maestro de Prompts"
+          className="w-44 sm:w-56 md:w-64 mx-auto mb-8 drop-shadow-[0_10px_30px_rgba(14,165,233,0.25)]"
+        />
+
         <motion.div
           initial={{
             opacity: 0,

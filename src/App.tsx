@@ -12,11 +12,8 @@ export function App() {
       {/* Navigation / Header (Simple) */}
       <header className="fixed top-0 inset-x-0 z-50 bg-slate-900/80 backdrop-blur-md border-b border-slate-800">
         <div className="container mx-auto px-6 h-16 flex items-center justify-between">
-          <div className="font-bold text-xl tracking-tight flex items-center gap-2">
-            <div className="w-8 h-8 bg-amber-500 rounded-lg flex items-center justify-center text-slate-950 font-black">
-              S
-            </div>
-            Sistema Maestro
+          <div className="font-bold text-xl tracking-tight flex items-center gap-3">
+            <span>Sistema Maestro</span>
           </div>
           <a
             href="#oferta"
