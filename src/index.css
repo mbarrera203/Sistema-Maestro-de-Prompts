@@ -1,0 +1,28 @@
+/* @import url() FONT IMPORTS MUST ALWAYS BE AT THE VERY TOP OF THIS FILE, ABOVE THE TAILWIND IMPORTS — DO NOT DELETE THIS COMMENT */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+/* CRITICAL: THE FOLLOWING TAILWIND IMPORTS MUST NEVER BE DELETED OR REORDERED — DO NOT DELETE THIS COMMENT */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* END TAILWIND IMPORTS — ALL OTHER CSS MUST GO BELOW THIS LINE */
+
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 20px rgba(245, 158, 11, 0.3);
+  }
+  .box-glow {
+    box-shadow: 0 0 30px rgba(245, 158, 11, 0.15);
+  }
+  .box-glow-hover:hover {
+    box-shadow: 0 0 40px rgba(245, 158, 11, 0.25);
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #0f172a;
+  color: #f8fafc;
+}
