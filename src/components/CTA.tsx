@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ShieldCheck, MessageCircle, ArrowRight } from 'lucide-react';
+import { ShieldCheck, MessageCircle } from 'lucide-react';
 export function CTA() {
   return (
     <section className="py-32 relative overflow-hidden">
@@ -29,10 +29,7 @@ export function CTA() {
           </p>
 
           <div className="flex flex-col items-center gap-6">
-            <button className="px-10 py-5 bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold rounded-2xl text-xl transition-all box-glow hover:scale-105 flex items-center gap-3 w-full sm:w-auto justify-center">
-              Quiero mi Sistema Maestro ahora
-              <ArrowRight className="w-6 h-6" />
-            </button>
+            {/* <PurchaseCtaButton className="w-full sm:w-auto" /> */}
 
             <div className="flex flex-col sm:flex-row items-center gap-6 mt-6 text-slate-400">
               <div className="flex items-center gap-2">

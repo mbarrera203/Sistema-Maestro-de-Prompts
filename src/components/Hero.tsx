@@ -1,6 +1,5 @@
-import React from 'react';
 import { motion } from 'framer-motion';
-import { ChevronRight, Sparkles } from 'lucide-react';
+import { Sparkles } from 'lucide-react';
 export function Hero() {
   return (
     <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden pt-20 pb-16">
@@ -58,10 +57,10 @@ export function Hero() {
             delay: 0.1
           }}
           className="text-5xl md:text-7xl font-extrabold tracking-tight mb-8 leading-[1.1]">
-          
-          Dejá de 'probar suerte' con la IA y empezá a{' '}
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-600 text-glow">
-            diseñar resultados
+      
+          La diferencia no es la IA {' '}<br />
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-700 text-glow">
+          Sos vos
           </span>
         </motion.h1>
 
@@ -100,13 +99,7 @@ export function Hero() {
           }}
           className="flex flex-col sm:flex-row items-center justify-center gap-4">
           
-          <a
-            href="#oferta"
-            className="w-full sm:w-auto px-8 py-4 bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold rounded-xl text-lg transition-all box-glow hover:scale-105 flex items-center justify-center gap-2">
-            
-            Quiero mi Sistema Maestro
-            <ChevronRight className="w-5 h-5" />
-          </a>
+          {/* <PurchaseCtaButton className="w-full sm:w-auto" /> */}
           <a
             href="#metodologia"
             className="w-full sm:w-auto px-8 py-4 bg-slate-800 hover:bg-slate-700 text-white font-semibold rounded-xl text-lg transition-all border border-slate-700 flex items-center justify-center">

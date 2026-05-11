@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Briefcase, PenTool, GraduationCap, Clock } from 'lucide-react';
+import { PurchaseCtaButton } from './PurchaseCtaButton';
 const targets = [
 {
   icon: <Clock className="w-6 h-6 text-amber-400" />,
@@ -87,6 +88,10 @@ export function TargetAudience() {
               </motion.div>
             )}
           </div>
+        </div>
+
+        <div className="mt-16 flex justify-center">
+          <PurchaseCtaButton className="w-full sm:w-auto max-w-md" />
         </div>
       </div>
     </section>);

@@ -6,6 +6,7 @@ import { Offer } from './components/Offer';
 import { Methodology } from './components/Methodology';
 import { TargetAudience } from './components/TargetAudience';
 import { CTA } from './components/CTA';
+import { PurchaseCtaButton } from './components/PurchaseCtaButton';
 export function App() {
   return (
     <div className="min-h-screen bg-slate-900 text-slate-50 font-sans selection:bg-amber-500/30">
@@ -15,12 +16,7 @@ export function App() {
           <div className="font-bold text-xl tracking-tight flex items-center gap-3">
             <span>Sistema Maestro</span>
           </div>
-          <a
-            href="#oferta"
-            className="text-sm font-semibold bg-slate-800 hover:bg-slate-700 px-4 py-2 rounded-lg transition-colors border border-slate-700">
-            
-            Ver Pack
-          </a>
+          <PurchaseCtaButton compact className="shrink-0" />
         </div>
       </header>
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { User, Bot, ArrowRight, CheckCircle2 } from 'lucide-react';
+import { User, Bot, CheckCircle2 } from 'lucide-react';
+import { PurchaseCtaButton } from './PurchaseCtaButton';
 export function Solution() {
   return (
     <section className="py-24 relative overflow-hidden">
@@ -135,6 +136,10 @@ export function Solution() {
               </div>
             </div>
           </motion.div>
+        </div>
+
+        <div className="mt-16 flex justify-center">
+          <PurchaseCtaButton className="w-full sm:w-auto max-w-md" />
         </div>
       </div>
     </section>);

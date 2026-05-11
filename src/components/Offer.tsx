@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import {
   Book,
@@ -8,6 +7,7 @@ import {
   Calendar,
   Gift } from
 'lucide-react';
+import { PurchaseCtaButton } from './PurchaseCtaButton';
 const packItems = [
 {
   icon: <Book className="w-8 h-8 text-amber-400" />,
@@ -100,6 +100,10 @@ export function Offer() {
               <p className="text-slate-400 leading-relaxed">{item.desc}</p>
             </motion.div>
           )}
+        </div>
+
+        <div className="mt-16 flex justify-center">
+          <PurchaseCtaButton className="w-full sm:w-auto max-w-md" />
         </div>
       </div>
     </section>);

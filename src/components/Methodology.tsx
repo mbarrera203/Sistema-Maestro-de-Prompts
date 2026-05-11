@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { Layers, Target, RefreshCw } from 'lucide-react';
 export function Methodology() {

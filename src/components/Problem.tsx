@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { MessageSquareDashed, Wand2, History, RefreshCcw } from 'lucide-react';
 const errors = [
@@ -42,7 +41,7 @@ export function Problem() {
           className="text-center mb-16">
           
           <h2 className="text-3xl md:text-5xl font-bold mb-6">
-            ¿Sentís que la IA te da respuestas genéricas o "meh"?
+            ¿¿Tus respuestas de IA se sienten vacías?
           </h2>
           <p className="text-xl text-slate-400 max-w-3xl mx-auto">
             El problema no es la herramienta, es que le hablás como a un chat
